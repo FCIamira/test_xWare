@@ -1,0 +1,70 @@
+.frist-image {
+  background-repeat: no-repeat;
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+/* body {
+  border: 2px solid;
+} */
+
+section header h1 {
+  text-align: center;
+  background-color: rgba(177, 189, 199, 0.678);
+}
+
+section > p::first-line {
+  color: red;
+}
+
+section footer button {
+  border: 1px solid;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+section footer button:hover {
+  color: chocolate;
+  background-color: black;
+}
+div .B {
+  background: brown;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+div .C {
+  background: black;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+div .D {
+  background-color: blue;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+div .F {
+  background-color: red;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+div .G {
+  background-color: rgb(154, 118, 167);
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+/* ul li{
+
+
+} */
+section {
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 3px solid black;
+}
