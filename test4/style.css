@@ -1,0 +1,23 @@
+p::first-letter {
+  color: red;
+  /* list-style: Palatino serif; */
+  /* font-family: sans-serif; */
+  font-family: cursive;
+  font-size: 40px;
+}
+body {
+  color: antiquewhite;
+  background-color: black;
+}
+section {
+  border: 1px solid rgb(161, 168, 94);
+  padding: 150px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+p::after {
+  content: " _";
+  color: blue;
+}
