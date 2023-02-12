@@ -1,0 +1,78 @@
+section header a {
+  padding: 30px;
+  margin: 30px;
+}
+body {
+  color: white;
+  background-image: url(/image/image\ space2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.button-style1:hover {
+  color: black;
+  background-color: chocolate;
+  text-decoration: none;
+}
+.button-style1 {
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-style2 {
+  border-radius: 2px solid rosybrown;
+}
+section button {
+  margin: 10px;
+  padding: 10px;
+}
+section header img {
+  width: 25px;
+  height: 25px;
+  margin-left: 80px;
+}
+
+.add-image1 p {
+  display: inline-block;
+  letter-spacing: 1px;
+  width: 450px;
+  height: 300px;
+}
+.add-image1 {
+  padding: 100px;
+  margin: 20px;
+}
+section footer h4,
+p {
+  display: inline-block;
+}
+.add-image2 {
+  vertical-align: top;
+}
+header,
+footer {
+  background-color: gray;
+}
+h1 {
+  text-indent: 200px;
+}
+.frist {
+  width: 400px;
+  height: 300px;
+  /* margin: 50px; */
+  padding: 10px;
+}
+.A {
+  margin: 20px;
+}
+.add-image2 p {
+  display: inline-block;
+  /* margin: 20px; */
+  width: 300px;
+  height: 200px;
+  letter-spacing: 0.5px;
+}
+.add-image2 {
+  margin: 100px;
+  padding: 20px;
+}

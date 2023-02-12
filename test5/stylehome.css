@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  color: aliceblue;
+}
+.label {
+  border: 2px solid chocolate;
+  margin: 100px;
+  padding: 30px;
+}
+.label label,
+input {
+  text-align: center;
+  margin: 30px;
+}
+header > h5 {
+  text-align: center;
+  color: rgb(161, 163, 165);
+}
+button:hover {
+  color: white;
+  background-color: chocolate;
+}
+h1::after {
+  content: "-------------";
+}
+h1 {
+  text-align: center;
+  color: rgb(24, 24, 163);
+}
+h1::before {
+  content: "-------------";
+}
