@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "section1 section2 section2 section2 section3"
+    "section1 section4 section5 section5 section5"
+    "section1 footer footer footer footer";
+  gap: 10px;
+}
+
+.all header {
+  display: grid;
+  background-color: chocolate;
+  color: black;
+  grid-area: header;
+  justify-items: center;
+  align-items: center;
+}
+.section1 {
+  display: grid;
+  background-color: brown;
+  color: aliceblue;
+  grid-area: section1;
+  justify-items: center;
+  align-items: center;
+}
+
+.section2 {
+  display: grid;
+  background-color: blue;
+  color: aliceblue;
+  grid-area: section2;
+  justify-items: center;
+  align-items: center;
+}
+.section3 {
+  display: grid;
+  background-color: yellow;
+  color: black;
+  grid-area: section3;
+  justify-items: center;
+  align-items: center;
+}
+.section4 {
+  display: grid;
+  background-color: orangered;
+  color: aliceblue;
+  grid-area: section4;
+  justify-items: center;
+  align-items: center;
+}
+
+.section5 {
+  display: grid;
+  background-color: black;
+  color: aliceblue;
+  grid-area: section5;
+  justify-items: center;
+  align-items: center;
+}
+
+.all footer {
+  display: grid;
+  background-color: chocolate;
+  color: black;
+  grid-area: footer;
+  justify-items: center;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .all {
+    grid-template-areas:
+      "header header header header header"
+      "section1 section2 section2 section3 section3"
+      "section1 section4 section4 section5 section5"
+      "footer footer footer footer footer";
+    gap: 10px;
+  }
+  /* .section1 {
+    display: none;
+  } */
+}
+@media (max-width: 450px) {
+  .all {
+    grid-template-areas:
+      "header header header header header"
+      "section1 section1 section1 section1 section1"
+      "section2 section2 section2 section2 section2"
+      "section3 section3 section3 section3 section3"
+      "section4 section4 section4 section4 section4"
+      "section5 section5 section5 section5 section5"
+      "footer footer footer footer footer";
+    gap: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.all {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  height: 300px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.B {
+  display: grid;
+  background-color: chocolate;
+  height: 20px;
+  width: 20px;
+}
